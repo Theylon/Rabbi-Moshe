@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto+Mono&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 39 38% 89%;
+  --foreground: 30 23% 9%;
+  --card: 0 0% 100%;
+  --card-foreground: 30 23% 9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 30 23% 9%;
+  --primary: 213 65% 22%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 39 38% 89%;
+  --secondary-foreground: 30 23% 9%;
+  --muted: 30 15% 90%;
+  --muted-foreground: 30 10% 40%;
+  --accent: 30 58% 88%;
+  --accent-foreground: 30 23% 9%;
+  --destructive: 0 85% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 30 15% 85%;
+  --input: 30 15% 85%;
+  --ring: 213 65% 22%;
+  --radius: 0.5rem;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #F5E6D3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 10s ease-in-out infinite;
+}
+
