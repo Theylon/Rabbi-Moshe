@@ -1,8 +1,8 @@
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Features from './components/Features'
-import CTA from './components/CTA'
-import AnimatedBackground from './components/AnimatedBackground'
+import Header from "./components/Header"
+import Hero from "./components/Hero"
+import Features from "./components/Features"
+import CTA from "./components/CTA"
+import AnimatedBackground from "./components/AnimatedBackground"
 
 export default function Home() {
   return (

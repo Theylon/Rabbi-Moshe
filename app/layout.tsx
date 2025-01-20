@@ -1,14 +1,15 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-import type { Metadata } from 'next'
+import "./globals.css"
+import { Inter } from "next/font/google"
+import type { Metadata } from "next"
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'Rabbi Moshe - AI Rabbi for the Digital Age',
-  description: 'Explore ancient wisdom through modern tech with Rabbi Moshe, your AI Rabbi blending tradition with innovation.',
+  title: "Rabbi Moshe - AI Rabbi for the Digital Age",
+  description:
+    "Explore ancient wisdom through modern tech with Rabbi Moshe, your AI Rabbi blending tradition with innovation.",
   icons: {
-    icon: '/icon.png',
+    icon: "/icon.png",
   },
 }
 
